@@ -2,9 +2,9 @@
 # Emotional AI Assistant Based on Ollama and AnythingLLM
 
 ## 1.项目简介（Project Introduction）
-本项目在 __基于 Ollama 的 AI 情绪助手__ 基础上，替换前端为 AnythingLLM 应用，新增了 RAG 知识库和网络搜索等功能。系统专为本科毕业设计开发，暂不适用于商业应用。<br>
+本项目在 __基于 Ollama 的 AI 情绪助手__ ( https://github.com/lihuacatnb/AI-Emotion-Assistant-2 ) 基础上，替换前端为 AnythingLLM 应用，新增了 RAG 知识库和网络搜索等功能。系统专为本科毕业设计开发，暂不适用于商业应用。<br>
 <br>
-_This project is based on the **AI Emotional Assistant built on Ollama**, with the frontend replaced by the AnythingLLM application. It introduces new features such as RAG knowledge base integration and web search functionality. The system is designed specifically for undergraduate thesis projects and is not intended for commercial use._ <br>
+_This project is based on the **AI Emotional Assistant built on Ollama** ( https://github.com/lihuacatnb/AI-Emotion-Assistant-2 ) , with the frontend replaced by the AnythingLLM application. It introduces new features such as RAG knowledge base integration and web search functionality. The system is designed specifically for undergraduate thesis projects and is not intended for commercial use._ <br>
 
 ## 2.项目基础（Project Foundation）
 知识库的内容是来自简单心理网的一些心理文章，为了方便阅读文件格式为docx，存储在 RAG Knowledge Base 文件夹中。<br>
