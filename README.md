@@ -4,12 +4,12 @@
 ## 1.项目简介（Project Introduction）
 本项目在 __基于 Ollama 的 AI 情绪助手__ 基础上，替换前端为 AnythingLLM 应用，新增了 RAG 知识库和网络搜索等功能。系统专为本科毕业设计开发，暂不适用于商业应用。<br>
 <br>
-_ This project is based on the **AI Emotional Assistant built on Ollama**, with the frontend replaced by the AnythingLLM application. It introduces new features such as RAG knowledge base integration and web search functionality. The system is designed specifically for undergraduate thesis projects and is not intended for commercial use. _ <br>
+_This project is based on the **AI Emotional Assistant built on Ollama**, with the frontend replaced by the AnythingLLM application. It introduces new features such as RAG knowledge base integration and web search functionality. The system is designed specifically for undergraduate thesis projects and is not intended for commercial use._ <br>
 
 ## 2.项目基础（Project Foundation）
 知识库的内容是来自简单心理网的一些心理文章，为了方便阅读文件格式为docx，存储在 RAG Knowledge Base 文件夹中。<br>
 <br>
-_ The content of the knowledge base consists of psychological articles sourced from Simple Psychology. For easier reading, the file format is DOCX and is stored in the RAG Knowledge Base folder. _
+_The content of the knowledge base consists of psychological articles sourced from Simple Psychology. For easier reading, the file format is DOCX and is stored in the RAG Knowledge Base folder._
 
 ## 3.项目运行（Project Running）
 ### （1）前端环境 （Front-end Environment）
@@ -27,13 +27,16 @@ _Lihuacat Technology_ <br>
 <img src="/show1.png"/><br>
 <br>
 <br>
+<br>
 <img src="/show2.png"/><br>
 <br>
 <br>
 <img src="/show3.png"/><br>
 <br>
 <br>
+<br>
 <img src="/show4.png"/><br>
+<br>
 <br>
 <br>
 <img src="/show5.png"/><br>
