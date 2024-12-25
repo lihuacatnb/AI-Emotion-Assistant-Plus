@@ -7,9 +7,9 @@
 _This project is based on the **AI Emotional Assistant built on Ollama** ( https://github.com/lihuacatnb/AI-Emotion-Assistant-2 ) , with the frontend replaced by the AnythingLLM application. It introduces new features such as RAG knowledge base integration and web search functionality. The system is designed specifically for undergraduate thesis projects and is not intended for commercial use._ <br>
 
 ## 2.项目基础（Project Foundation）
-知识库的内容是来自简单心理网的一些心理文章，为了方便阅读文件格式为docx，存储在 RAG Knowledge Base 文件夹中。<br>
+知识库的内容是来自简单心理网的一些心理文章，为了方便阅读文件格式为docx，存储在 **RAG Knowledge Base** 文件夹中。<br>
 <br>
-_The content of the knowledge base consists of psychological articles sourced from Simple Psychology. For easier reading, the file format is DOCX and is stored in the RAG Knowledge Base folder._
+_The content of the knowledge base consists of psychological articles sourced from Simple Psychology. For easier reading, the file format is DOCX and is stored in the **RAG Knowledge Base** folder._
 
 ## 3.项目运行（Project Running）
 ### （1）前端环境 （Front-end Environment）
