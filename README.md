@@ -13,7 +13,7 @@ _The content of the knowledge base consists of psychological articles sourced fr
 
 ## 3.项目运行（Project Running）
 ### （1）前端环境 （Front-end Environment）
-AnythingLLM 最新版
+AnythingLLM 最新版<br>
 _The latest version of AnythingLLM_
 ### （2）后端环境 （Back-end Environment）
 Ollama 最新版<br>
