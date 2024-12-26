@@ -20,7 +20,7 @@ Ollama 最新版<br>
 _The latest version of Ollama_
 
 ## 4.开发人员（Developers）
-狸猫科技<br>
+狸猫C型AI （LH-Cat AI）<br>
 _Lihuacat Technology_ <br>
 
 ## 5.项目展示（Project Display）
