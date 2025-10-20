@@ -32,6 +32,7 @@
 注意：
 - ⚠️模型回复问题：使用 Qwen3 1.7B 模型时，会出现相同回复的错误，提示词中的输出多样性设定有时仍然会不起作用。
 - ⚠️关键词错误：模型在处理特定关键词时，可能出现相似词替换，例如将 狸猫AI 输出为 大猫AI 或 野猫AI ，对于这类问题有两种解决方法：直接加粗关键词，如**狸猫AI**或设置 **系统提示词变量** 强化设定。
+
 <img src="[/others/prompt-1.png]"> 
 
 ## 4.嵌入器选择
@@ -51,11 +52,13 @@
 ## 7.项目展示
 
 ### （1）基于 Gemma 3 4B 模型
+
 <img src="[/others/show-1.png]">
 <br>
 <img src="[/others/show-2.png]">
 
 ### （2）基于 Qwen 3 1.7B 模型
+
 <img src="[/others/show-3.png]">
 <br>
 <img src="[/others/show-4.png]">
