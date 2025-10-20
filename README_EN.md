@@ -1,7 +1,7 @@
 # "Xiaoli" AI Psychological Counselor based on AnythingLLM
 ---
 
-📖 **This is the English version of the README.** Click here to view the [Chinese version](./README.md) 
+📖 **This is the English version of the README.** Click here to view the [中文版本](./README.md) 
 
 ---
 
@@ -61,4 +61,5 @@ LH-Cat AI
 
 ---
 
-<p align="center">⭐️ If you find this helpful, please give it a Star! ⭐️</p>
+<p align="center">⭐️ If you find this helpful, feel free to give it a Star to show your support! ⭐️</p>
+
