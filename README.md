@@ -53,17 +53,17 @@
 
 ### （1）基于 Gemma 3 4B 模型
 
-<img src="[/others/show-1.png]">
+<img src="[others/show-1.png]">
 <br>
-<img src="[/others/show-2.png]">
+<img src="[others/show-2.png]">
 
 ### （2）基于 Qwen 3 1.7B 模型
 
-<img src="[/others/show-3.png]">
+<img src="[others/show-3.png]">
 <br>
-<img src="[/others/show-4.png]">
+<img src="[others/show-4.png]">
 <br>
-<img src="[/others/show-5.png]">
+<img src="[others/show-5.png]">
 
 
 ---
