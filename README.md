@@ -44,7 +44,7 @@
 知识库内容选自 **简单心理网** (https://www.jiandanxinli.com/) 的部分专业心理文章。原始文章格式为 docx，存储在 **RAG Knowledge Base**  文件夹中。
 
 ### （2）知识处理
-知识库内容统一为 markdown (md) 格式，存储在 **RAG Knowledge** 文件夹中。对于文章中过长段落和缺失段标题的内容，使用了 Google Gemini （https://gemini.google.com/） 和 ChatGPT （https://chatgpt.com/） 进行分割和标题总结。图片和图表内容的文字识别主要使用了 Google Gemini 完成。
+知识库内容统一为 markdown (md) 格式，存储在 **RAG Knowledge** 文件夹中。对于文章中过长段落和缺失段标题的内容，使用了 [Google Gemini](https://gemini.google.com/) 和 [ChatGPT](https://chatgpt.com/) 进行分割和标题总结。图片和图表内容的文字识别主要使用了 Google Gemini 完成。
 
 ## 6.开发人员
 狸猫C型AI
