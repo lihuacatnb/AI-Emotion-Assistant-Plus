@@ -37,10 +37,10 @@ Note:
 This project selects the multilingual-e5-small embedder provided by AnythingLLM.
 
 ## 5. Knowledge Base Engineering
-(1) Knowledge Source
+### (1) Knowledge Source
 The knowledge base content is sourced from a selection of professional psychological articles from JiandanXinli (Simple Psychology Network). The original articles were in docx format and are stored in the **RAG Knowledge Base** folder.
 
-(2) Knowledge Processing
+### (2) Knowledge Processing
 The knowledge base content is uniformly converted to markdown (md) format and stored in the **RAG Knowledge** folder. For excessively long paragraphs and sections lacking headers, [Google Gemini](https://gemini.google.com/) and [ChatGPT](https://chatgpt.com/) were used for segmentation and header summarization. Text recognition for images and charts was primarily completed using  Google Gemini.
 
 ## 6. Developer
