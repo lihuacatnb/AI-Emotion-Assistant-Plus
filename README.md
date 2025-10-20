@@ -1,49 +1,70 @@
-# 基于Ollama + AnytingLLM的AI情绪助手
-# Emotional AI Assistant Based on Ollama and AnythingLLM
+# 基于AnytingLLM的“小狸”心理咨询师
 
-## 1.项目简介（Project Introduction）
-本项目在 __基于 Ollama 的 AI 情绪助手__ ( https://github.com/lihuacatnb/AI-Emotion-Assistant-2 ) 基础上，替换前端为 AnythingLLM 应用，新增了 RAG 知识库和网络搜索等功能。系统专为本科毕业设计开发，暂不适用于商业应用。<br>
-<br>
-_This project is based on the **AI Emotional Assistant built on Ollama** ( https://github.com/lihuacatnb/AI-Emotion-Assistant-2 ) , with the frontend replaced by the AnythingLLM application. It introduces new features such as RAG knowledge base integration and web search functionality. The system is designed specifically for undergraduate thesis projects and is not intended for commercial use._ <br>
+---
 
-## 2.项目基础（Project Foundation）
-知识库的内容是来自简单心理网的一些心理文章，为了方便阅读文件格式为docx，存储在 **RAG Knowledge Base** 文件夹中。<br>
-<br>
-_The content of the knowledge base consists of psychological articles sourced from Simple Psychology. For easier reading, the file format is DOCX and is stored in the **RAG Knowledge Base** folder._
+📖 **本 README 为中文版本**，点击这里查看 [English version](./README_EN.md)  
 
-## 3.项目运行（Project Running）
-### （1）前端环境 （Front-end Environment）
-AnythingLLM 最新版<br>
-_The latest version of AnythingLLM_
-### （2）后端环境 （Back-end Environment）
-Ollama 最新版<br>
-_The latest version of Ollama_
+---
 
-## 4.开发人员（Developers）
-狸猫C型AI （LH-Cat AI）<br>
-_Lihuacat Technology_ <br>
+## 1.项目简介
+本项目基于 **AnythingLLM** 框架构建了一个名叫 **小狸** 的AI角色。小狸是一只可爱、温柔、专业的狸花猫，身份设定是一名专业的心理咨询师，旨在为用户提供温柔、专业的心理支持与建议。
 
-## 5.项目展示（Project Display）
-<img src="/show1.png"/><br>
-<br>
-<br>
-<br>
-<img src="/show2.png"/><br>
-<br>
-<br>
-<img src="/show3.png"/><br>
-<br>
-<br>
-<br>
-<img src="/show4.png"/><br>
-<br>
-<br>
-<br>
-<img src="/show5.png"/><br>
-<br>
+## 2.模型选取
+受限于本地硬件条件，本项目选取了小参数量模型 **Gemma 3 4B** 模型和具有深度思考功能的 **Qwen 3 1.7B** 模型。
+- 注意：使用 Qwen 3 1.7B 模型时，常常出现相同或高度相似回复的错误，更换为 Qwen 3 8B 后问题依旧存在。该现象可能与本地推理环境或模型在小参数量下的泛化能力有关。
+<img src="[/others/model-1.png]">
 
-## 6.商务合作 (Business cooperation)
-微信：maxiuwo1314 &nbsp;&nbsp;&nbsp;&nbsp; 邮箱：zhaogangbjm@gmail.com<br> 
-<br>
-_WeChat: maxiuwo1314 &nbsp;&nbsp;&nbsp;&nbsp; Email：zhaogangbjm@gmail.com_
+## 3.提示词工程
 
+```plaintext
+基本设定：你是小狸，来自**狸猫AI**，是一只可爱的狸花猫。
+身份设定：你的身份是一名专业的心理咨询师，拥有丰富的临床经验与心理学知识。
+主要任务：为用户提供温柔、专业的心理支持与建议。
+行为约束：
+- 咨询约束：不主动引导话题，也不预设主题，仅在用户明确表达困扰或求助时，才进入心理咨询。
+- 输出多样性：禁止输出相同或高度相似的回复。
+- 安全与伦理：若发现涉及危险、自伤、自杀等话题，提醒用户寻求现实中的专业帮助。
+语言风格：
+- 语言：中文。
+- 风格：语气专业、可爱、温和。
+```
+
+注意：
+- ⚠️模型回复问题：使用 Qwen3 1.7B 模型时，会出现相同回复的错误，提示词中的输出多样性设定有时仍然会不起作用。
+- ⚠️关键词错误：模型在处理特定关键词时，可能出现相似词替换，例如将 狸猫AI 输出为 大猫AI 或 野猫AI ，对于这类问题有两种解决方法：直接加粗关键词，如**狸猫AI**或设置 **系统提示词变量** 强化设定。
+<img src="[/others/prompt-1.png]"> 
+
+## 4.嵌入器选择
+本项目选择Anything的提供的嵌入器 multilingual-e5-small。
+
+## 5.知识库工程
+
+### （1）知识来源
+知识库内容选自 **简单心理网** ( https://www.jiandanxinli.com/ ) 的部分专业心理文章。原始文章格式为 docx，存储在 **RAG Knowledge Base**  文件夹中。
+
+### （2）知识处理
+知识库内容统一为 markdown (md) 格式，存储在 **RAG Knowledge** 文件夹中。对于文章中过长段落和缺失段标题的内容，使用了 Google Gemini（https://gemini.google.com/）和 ChatGPT（https://chatgpt.com/）进行分割和标题总结。图片和图表内容的文字识别主要使用了 Google Gemini 完成。
+
+## 6.开发人员
+狸猫C型AI
+
+## 7.项目展示
+
+### （1）基于 Gemma 3 4B 模型
+<img src="[/others/show-1.png]">
+<br>
+<img src="[/others/show-2.png]">
+
+### （2）基于 Qwen 3 1.7B 模型
+<img src="[/others/show-3.png]">
+<br>
+<img src="[/others/show-4.png]">
+<br>
+<img src="[/others/show-5.png]">
+
+
+---
+
+<p align="center">⭐️ 如果你觉得有帮助，欢迎点个 Star 支持一下！ ⭐️</p>
+
+ 
