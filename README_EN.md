@@ -47,11 +47,12 @@ The knowledge base content is uniformly converted to markdown (md) format and st
 LH-Cat AI
 
 ## 7. Project Showcase
-(1) Based on Gemma 3 4B Model
+### (1) Based on Gemma 3 4B Model
 <img src="others/show-1.png">
 <br>
 <img src="others/show-2.png">
-(2) Based on Qwen 3 1.7B Model
+
+### (2) Based on Qwen 3 1.7B Model
 <img src="others/show-3.png">
 <br>
 <img src="others/show-4.png">
